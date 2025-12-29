@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    height: 100vh;
+    background-color: darkslategrey;
+    color: greenyellow;
+    text-align: center;
+    padding: 15px;
+}
+
+h1 {
+    margin-bottom: 15px;
+    border: solid 1px greenyellow;
+    font-size: 2rem;
+    padding: .5rem 0;
+}
+
+.jokeDiv {
+    border: solid 1px greenyellow;
+    min-height: 200px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+.jokeBtn {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: large;
+    color: greenyellow;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border: solid 1.5px greenyellow;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.jokeBtn:hover {
+    background-color: greenyellow;
+    color: darkslategrey;
+}
+
+.jokeBtn:active {
+    background-color: yellowgreen;
+}
